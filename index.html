@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Currency Convert</h1>
+
+<form id="curr change" method="GET" action="http://mixcookie.ddns.net:3000/api/text">
+<label>currency number</label><input type="text" id="num" name="num"/><br>
+<label>original currency type:</label>
+<select name= id>
+<option value="USD">USD</option>
+<option value="CNY">CNY</option>
+<option value="JPY">JPY</option>
+<option value="EUR">EUR</option>
+<option value="AUD">AUD</option>
+<option value="HKD">HKD</option>
+<option value="NZD">NZD</option>
+</select>
+<br>
+<label>targeted currency type:</label>
+<select name= tar>
+<option value="USD">USD</option>
+<option value="CNY">CNY</option>
+<option value="JPY">JPY</option>
+<option value="EUR">EUR</option>
+<option value="AUD">AUD</option>
+<option value="HKD">HKD</option>
+<option value="NZD">NZD</option>
+</select>
+<br>
+<input type="submit" value="check"/><br></form>
+
+</body>
+</html>
